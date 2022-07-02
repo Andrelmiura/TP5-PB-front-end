@@ -7,6 +7,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 100vh;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -39,6 +40,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1em;
 }
 
 section .vistos-recentemente {
@@ -55,10 +57,13 @@ footer {
 }
 
 ul {
+    width: 40em;
+    height: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1em;
+    align-items: center;
+    justify-content: space-between;
 }
 
 li {
@@ -68,6 +73,7 @@ li {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 input {
@@ -107,4 +113,12 @@ input {
     display: flex;
     flex-direction: row;
     gap: 1em;
+}
+
+.categorias {
+    font-size: 3em;
+}
+
+nav {
+    font-size: 1.4em;
 }
